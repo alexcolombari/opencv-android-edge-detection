@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
         // SET "MAX" FOR THE MAXIMUM VALUE OF SEEK BAR - SET THE "CURRENT" VARIABLE VALUE TO GET THE CURRENT PROGRESS
         seekBar.setMax(max); // seekBar.setMax(max - min);
         seekBar.setProgress(current); // seekBar.setProgress(current - min);
-        // CREATE AN VARIABLE TATH RECEIVE THE CURRENT PROGRESS BAR VALUE
+        // CREATE AN VARIABLE THAT RECEIVE THE CURRENT PROGRESS BAR VALUE
         seekBarValue = (TextView)findViewById(R.id.textView);
     }
 
