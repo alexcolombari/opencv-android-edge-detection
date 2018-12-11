@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
     private CameraBridgeViewBase mOpenCvCameraView;
     int w, h;
 
-        // LOAD LIBRARY
+    // LOAD LIBRARY
     static {
         System.loadLibrary("opencv_java3");
     }
@@ -233,7 +233,7 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
             Log.i(TAG, e.toString());
             e.printStackTrace();
         }
-    
+
         return edges;
     }
 }
